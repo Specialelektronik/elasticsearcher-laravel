@@ -7,12 +7,27 @@
     "elasticsearch",
     "elastic"
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/special-elektronik/elasticsearcher"
+    }
+  ],
   "require": {
-    "madewithlove/elasticsearcher": "^0.5.0"
+    "madewithlove/elasticsearcher": "dev-0.7-dev"
   },
   "autoload": {
     "psr-4": {
-      "Madewithlove\\ElasticSearcherLaravel\\": ["src"]
+      "Madewithlove\\ElasticSearcherLaravel\\": [
+        "src"
+      ]
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "Madewithlove\\ElasticSearcherLaravel\\ServiceProvider"
+        ]
     }
   }
 }
