@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "madewithlove/elasticsearcher": "dev-0.7-dev"
+    "madewithlove/elasticsearcher": "7.x.x"
   },
   "autoload": {
     "psr-4": {
