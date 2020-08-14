@@ -10,7 +10,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/special-elektronik/elasticsearcher"
+      "url": "https://github.com/Specialelektronik/elasticsearcher"
     }
   ],
   "require": {
